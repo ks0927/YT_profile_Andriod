@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yt_nav"
+    app:startDestination="@id/yt1Fragment">
+
+    <fragment
+        android:id="@+id/yt1Fragment"
+        android:name="com.study.yt_list.Yt1Fragment"
+        android:label="fragment_yt1"
+        tools:layout="@layout/fragment_yt1" >
+        <action
+            android:id="@+id/action_yt1Fragment_to_yt2Fragment"
+            app:destination="@id/yt2Fragment" />
+        <action
+            android:id="@+id/action_yt1Fragment_to_yt3Fragment"
+            app:destination="@id/yt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yt2Fragment"
+        android:name="com.study.yt_list.Yt2Fragment"
+        android:label="fragment_yt2"
+        tools:layout="@layout/fragment_yt2" >
+        <action
+            android:id="@+id/action_yt2Fragment_to_yt1Fragment"
+            app:destination="@id/yt1Fragment" />
+        <action
+            android:id="@+id/action_yt2Fragment_to_yt3Fragment"
+            app:destination="@id/yt3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yt3Fragment"
+        android:name="com.study.yt_list.Yt3Fragment"
+        android:label="fragment_yt3"
+        tools:layout="@layout/fragment_yt3" >
+        <action
+            android:id="@+id/action_yt3Fragment_to_yt1Fragment"
+            app:destination="@id/yt1Fragment" />
+        <action
+            android:id="@+id/action_yt3Fragment_to_yt2Fragment"
+            app:destination="@id/yt2Fragment" />
+    </fragment>
+</navigation>

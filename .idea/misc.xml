@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/202010848/AndroidStudioProjects/YT_list/app/src/main/res/layout/activity_main.xml" value="0.24953445065176907" />
+        <entry key="..\:/Users/202010848/AndroidStudioProjects/YT_list/app/src/main/res/layout/fragment_yt1.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/202010848/AndroidStudioProjects/YT_list/app/src/main/res/layout/fragment_yt2.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/202010848/AndroidStudioProjects/YT_list/app/src/main/res/layout/fragment_yt3.xml" value="0.26811594202898553" />
+        <entry key="..\:/Users/202010848/AndroidStudioProjects/YT_list/app/src/main/res/layout/rv_item.xml" value="0.26811594202898553" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
